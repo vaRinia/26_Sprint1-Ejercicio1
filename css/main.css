@@ -1,0 +1,21 @@
+header img {
+	width: 50%;
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg-uno {
+	background-image: url("../img/header-image.jpg");
+	height: 480px;
+}
+.crema {
+	color: #F7D34F;
+}
+.courgette {
+	font-family: Courgette;
+}
+h1 {
+	font-size: 5em;
+}
