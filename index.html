@@ -10,67 +10,138 @@
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
-	<body>
-		<div class="container">
-		<header>
-			<div class="row">
-				<div class="col-xs-12">
-					<nav role="navigation" class="navbar navbar-default"><!--NAVEGADOR RETRÁCTIL-->
-				        <div class="navbar-header">
-				            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-				                <span class="sr-only">Toggle navigation</span>
-				                <span class="icon-bar"></span>
-				                <span class="icon-bar"></span>
-				                <span class="icon-bar"></span>
-				            </button>
-				            <a href="#"><img class="img-responsive" src="img/header-logo.png"></a>
-				        </div>
-				        <div id="navbarCollapse" class="collapse navbar-collapse">
-				            <ul class="nav navbar-nav">
-				                <li class="active"><a href="#">LIFESTYLE</a></li>
-				                <li><a href="#">FLOWERS</a></li>
-				                <li><a href="#">FASHION</a></li>
-				                <li><a href="#">NEWS</a></li>
-				                <li><a href="#">FEATURES</a></li>
-				            </ul>
-				        </div>
-					</nav>
-				</div>
-			</div>
-		</header>
-		<section>
-			<div class="row">
-				<div class="col-xs-12 col-lg-12 bg-img-block bg-uno">
-					<div class="bg-success">
-						<h1 class="crema courgette text-center">Spring Came</h1>
+	<body class="bg-mora">
+		<div class="container-fluid bg-morazu">
+			<header>
+				<div class="row">
+					<div class="col-xs-12">
+						<nav class="navbar navbar-default">
+						  <div class="container">
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#indice" aria-expanded="false"><!--este es el botoncito que sustituye todo cuando el menu se apila en versión movil-->
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button><!--termina botoncito apilable-->
+						      <a href="index.html"><img class="img-responsive" src="img/header-logo.png" alt="logo"></a><!-- ......IMAGENNNN LOGO ..... flotar izq, altura50px,-->
+						    </div>
+						    <!-- Información que va en el navegador -->
+						    <div class="collapse navbar-collapse navbar-right" id="indice">
+						      <ul class="nav navbar-nav">
+						    	<li><a href="#">FLOWERS <span class="sr-only">(current)</span></a></li>
+						    	<li><a href="#">FASHION</a></li>
+						    	<li><a href="#">NEWS</a></li>
+								<li><a href="#">FEATURES</a></li>
+						        <!--esto funciona para hacer que uno de los elementos tenga extras, dropdown, no lo necesitamos en este ejercicio, pero lo dejo para futuras referencias........ <li class="dropdown">
+						          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						          <ul class="dropdown-menu">
+						            <li><a href="#">Action</a></li>
+						            <li><a href="#">Another action</a></li>
+						            <li><a href="#">Something else here</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Separated link</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">One more separated link</a></li>
+						          </ul>
+						        </li> aqui termina el dropdown con sus elementos-->
+						      </ul>
+						        </li>
+						      </ul>
+						    </div><!-- /.navbar-collapse -->
+						  </div><!-- /.container-->
+						</nav>
+
+
+						
+
+
+
 					</div>
 				</div>
-			</div>
-		</section>
-		
-
-
-
-
-		<footer>
-			<p class="text-center">All Rights Reserved &#169</p>
-		</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		</div>
-		<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
-		<script type="text/javascript" src="bootstrap.min.js"></script>
+			</header>
+		</div><!--contenedor fluido-->
+		<div class="container"><!--contenedor-->
+			<section>
+				<div class="row mg-b-3"><!--ENCABEZADO FONDO IMAGEN-->
+					<div class="col-xs-12 col-md-12 bg-img-block bg-uno pd-10">
+						<div class="bg-morazu pd-5 center-block">
+							<h1 class="crema courgette text-center"><b>Spring Came</b></h1>
+							<p class="t-white courgette text-center">Life - Amanda Ray - 10th March 2015</p>
+						</div>
+					</div>
+				</div>
+				<div class="row mg-b-3"><!--........TRES IMAGENES.....-->
+					<div class="col-xs-12 col-md-4">
+						<img src="img/image7.jpg" alt="tiposdeflores" class="img-responsive">
+						<div class="bg-morazu text-center pd-3">
+							<h4 class="crema courgette">Floral fragrance</h4>
+							<p class="t-white"><i>Life Amanda Ray 10th March 2015</i></p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<img src="img/image3.jpg" alt="tiposdeflores" class="img-responsive">
+						<div class="bg-morazu text-center pd-3">
+							<h4 class="crema courgette">Now with Flatness</h4>
+							<p class="t-white"><i>News Amanda Ray 28th July 2015</i></p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<img src="img/image2.jpg" alt="tiposdeflores" class="img-responsive">
+						<div class="bg-morazu text-center pd-3">
+							<h4 class="crema courgette">Garden Flowers</h4>
+							<p class="t-white"><i>Life Amanda Ray 28th October 2015</i></p>
+						</div>
+					</div>
+				</div><!--.........FIN DE TRES IMÁGENES....-->
+				<div class="row mg-b-3">
+					<div class="col-xs-12 col-md-7">
+						<img src="img/image4.jpg" alt="másflores" class="img-responsive">
+						<div class="bg-morazu pd-3">
+							<h4 class="crema courgette text-center">Now with Flatness</h4>
+							<p class="t-white text-center"><i>News Amanda Ray 28th July 2015</i></p>
+							<p class="t-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ea assumenda modi, obcaecati veritatis, labore, dicta nobis odit, quia eos quaerat corporis. Optio eaque, consequuntur ipsam esse suscipit rerum illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quibusdam eaque quam at dolorem, omnis repudiandae recusandae ipsam doloribus aut. Eveniet quod expedita vero ab pariatur illo aliquid sit. Officia.</p>
+						</div>
+						<iframe src="https://player.vimeo.com/video/56810854" class="w-100" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
+					</div>
+					<div class="col-xs-12 col-md-5">
+						<aside class="hidden-xs"><!--.....BARRA LATERAL A OCULTAR......-->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group bg-morazu pd-5 bor-r-5"><!--........BUSCADOR.........-->
+	          							<input type="text" class="bg-mora form-control bor-r-5 bor-none pd-5" placeholder="Search">
+	        						</div>
+	        					</div>
+	        				</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="bg-morazu pd-b-2">
+										<h4 class="crema courgette text-center pd-1">About me</h4>
+										<img src="img/kew_gardens_3_500x500.jpg" class="img-responsive w-100">
+										<h4 class="text-center t-white">Amanda Ray</h4>
+										<p class="t-white pd-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe expedita facilis dolor est vero fugiat doloremque animi aut, velit sunt, nesciunt enim beatae alias. Assumenda maxime exercitationem minus error eligendi!</p>
+										<a href="http://www.facebook.com" class="pd-3" target="blank"><i class="fa fa-facebook iconos"></i></a>
+										<a href="http://www.instagram.com" class="pd-3" target="blank"><i class="fa fa-instagram iconos"></i></a>
+							            <a href="http://www.twitter.com" class="pd-3" target="blank"><i class="fa fa-twitter iconos"></i></a>
+							            <a href="http://www.youtube.com" class="pd-3" target="blank"><i class="fa fa-youtube iconos"></i></a>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</section>
+		</div><!--contenedor-->
+		<div class="container-fluid bg-morazu"><!--CONTENEDOR FLUIDO-->
+			<footer class="pd-1">
+				<div class="row">
+					<div class="col-xs-12 col-md-12">
+						<p class="text-center t-white">All Rights Reserved &#169 <span>nK</span></p>		
+					</div>
+				</div>
+			</footer>
+		</div><!--..............contenedor fluido.........-->
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script><!--referencias a js-->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</body>
 </html>
